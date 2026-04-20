@@ -1,5 +1,4 @@
 package base;
-
 public class produk {
     // Atribut
     private String nama;
@@ -7,7 +6,7 @@ public class produk {
     public int stok;
 
     // Constructor
-    public produk(String nama, double harga, int stok, String kategori) {
+    public produk(String nama, double harga, int stok) {
         this.nama = nama;
         this.harga = harga;
         this.stok = stok;
@@ -34,7 +33,7 @@ public class produk {
     }
 
     // public void tampilkanInfo() {
-    // System.out.println("Produk: " + nama);
+    // System.out.println("produk: " + nama);
     // System.out.println("Harga: " + harga);
     // System.out.println("Stok: " + stok);
     // System.out.println("==========");
