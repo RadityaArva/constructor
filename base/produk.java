@@ -1,4 +1,5 @@
 package base;
+
 public class produk {
     // Atribut
     private String nama;
