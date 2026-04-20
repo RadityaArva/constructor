@@ -1,5 +1,5 @@
 package toko;
-import base.Produk;
+import base.produk;
 
 class Pemasukan extends produk{
     private double totalPemasukan;
